@@ -92,7 +92,7 @@
                 buttonsStyling: false,
                 confirmButtonText: confirmButtonText,
                 customClass: {
-                    confirmButton: 'btn btn-primary'
+                    confirmButton: 'btn btn-success'
                 }
             });
         });
