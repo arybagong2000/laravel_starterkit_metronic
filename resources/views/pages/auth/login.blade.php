@@ -39,7 +39,7 @@
             <div></div>
 
             <!--begin::Link-->
-            <a href="{{ route('password.request') }}" class="link-success">
+            <a href="{{ route('password.request') }}" class="link-primary">
                 Forgot Password ?
             </a>
             <!--end::Link-->
@@ -48,14 +48,14 @@
 
         <!--begin::Submit button-->
         <div class="d-grid mb-10">
-            <button type="submit" id="kt_sign_in_submit" class="btn btn-success">
+            <button type="submit" id="kt_sign_in_submit" class="btn btn-primary">
                 @include('partials/general/_button-indicator', ['label' => 'Login'])
             </button>
         </div>
         <!--end::Submit button-->
 
         <!--begin::Sign up-->
-        <!-- div class="text-gray-500 text-center fw-semibold fs-6">
+        <div class="text-gray-500 text-center fw-semibold fs-6">
             Not a Member yet?
 
             <a href="{{ route('register') }}" class="link-primary">
